@@ -1,16 +1,15 @@
 %define		_name		zfiles
-
 Summary:	Infocom game list
 Summary(pl):	Lista tekstówek Infocomu
 Name:		infocom-zfiles
 Version:	980519
-Release:	1
+Release:	2
 License:	free
 Group:		Applications/Games
 Source0:	ftp://ftp.ifarchive.org/if-archive/games/zcode/%{_name}.z8
 # Source0-md5:	8780769d82ea581b186089feb478c17a
 URL:		http://www.ifarchive.org/
-Requires:	frotz
+Requires:	zcode-wrapper
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
