@@ -1,7 +1,7 @@
 %define		_name		zfiles
 
 Summary:	Infocom game list
-Summary(pl):	Lista testówek Infocomu
+Summary(pl):	Lista tekstówek Infocomu
 Name:		infocom-zfiles
 Version:	980519
 Release:	1
@@ -16,11 +16,22 @@ BuildArch:	noarch
 
 %description
 This is a list of all English Z-code files that are legally available.
-Therefore, it includes mainlyfiles compiled by Graham Nelson's Inform,
-but Activision has released some old Infocom games into the public.
+Therefore, it includes mainly files compiled by Graham Nelson's
+Inform, but Activision has released some old Infocom games into the
+public.
 
 Please understand that due to the majority of English games,
 "minorities" like German and Spanish games cannot be supported.
+
+%description -l pl
+Jest to pe³na lista wszystkich legalnie dostêpnych angielskich plików
+Z-cyferka. Zatem zawiera ona g³ównie pliki skompilowane przez Inform
+Grahama Nelsona, jednak¿e Activision udostêpni³o publicznie niektóre
+stare gry Infocoma.
+
+Proszê zrozumieæ, ¿e ze wzglêdu na przewagê gier angielskich,
+"mniejszo¶ci", takie jak gry niemiecki czy hiszpañskie, nie mog± byæ
+wspierane.
 
 %prep
 
