@@ -1,6 +1,6 @@
 %define		_name		zfiles
 Summary:	Infocom game list
-Summary(pl.UTF-8):   Lista tekstówek Infocomu
+Summary(pl.UTF-8):	Lista tekstówek Infocomu
 Name:		infocom-zfiles
 Version:	980519
 Release:	2
